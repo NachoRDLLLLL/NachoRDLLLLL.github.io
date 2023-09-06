@@ -17,6 +17,7 @@ body{
     justify-content: space-evenly;
     font-size: 20px;
     color: #fff;
+    flex-wrap: wrap;
 }
 
 
@@ -24,11 +25,13 @@ nav .Links{
     width: 25%;
     height: 100%;
     color: #fff;
+    flex-wrap: wrap;
 }
 
 nav .home{
     color: #fff;
     transition: transform 0.2s;
+    flex-wrap: wrap;
 }
 
 nav .home:hover{
@@ -38,6 +41,7 @@ nav .home:hover{
 nav .contacto{
     color: #fff;
     transition: transform 0.2s;
+    flex-wrap: wrap;
 }
 
 nav .contacto:hover{
@@ -47,6 +51,7 @@ nav .contacto:hover{
 nav .redes{
     color: #fff;
     transition: transform 0.2s;
+    flex-wrap: wrap;
 }
 
 nav .redes:hover{
@@ -58,11 +63,13 @@ nav .redes:hover{
     text-align: center;
     margin: 300px 0;
     font-size: 28px;
+    flex-wrap: wrap;
 }
 
 
 .creador{
     font-size: 2vh;
+    flex-wrap: wrap;
 }
 
 .descripcion{
@@ -75,6 +82,7 @@ nav .redes:hover{
     font-family:monospace;
     display: flex;
     align-items: top;
+    flex-wrap: wrap;
 }
 
 .codigo_ejemplo{ 
@@ -84,6 +92,7 @@ nav .redes:hover{
     animation-timing-function: ease-in-out;
     margin-left: 80px;
     margin-top: 5px;
+    flex-wrap: wrap;
     }
      
 @keyframes floating {
@@ -95,6 +104,7 @@ nav .redes:hover{
 .codigo_ejemplo{
     height: 250px;
     margin-top: -60px;
+    flex-wrap: wrap;
 }
 
 .button{            
@@ -102,6 +112,7 @@ nav .redes:hover{
     border: none;             
     border-radius: 5px;       
     cursor: pointer;
+    flex-wrap: wrap;
 }
 
 .button{
@@ -109,6 +120,7 @@ nav .redes:hover{
     justify-content: flex-end; 
     align-items: center;      
     height: 40px; 
+    flex-wrap: wrap;
 }
 
 .btn_neon{
@@ -121,6 +133,7 @@ nav .redes:hover{
     text-decoration: none;
     overflow: hidden;
     transition: 0.2s;
+    flex-wrap: wrap;
 }
 
 .btn_neon:hover{
@@ -133,6 +146,7 @@ nav .redes:hover{
 .btn_neon span{
     position: absolute;
     display: block;
+    flex-wrap: wrap;
 }
 
 #span1{
@@ -141,6 +155,7 @@ nav .redes:hover{
     width: 100%;
     height: 2px;
     background: linear-gradient(90deg,transparent,#a945c7);
+    flex-wrap: wrap;
 }
 
 .btn_neon:hover #span1{
@@ -154,6 +169,7 @@ nav .redes:hover{
     width: 100%;
     height: 2px;
     background: linear-gradient(270deg,transparent,#a945c7);
+    flex-wrap: wrap;
 }
 
 .btn_neon:hover #span3{
@@ -168,6 +184,7 @@ nav .redes:hover{
     width: 2px;
     height: 100%;
     background: linear-gradient(180deg,transparent,#a945c7);
+    flex-wrap: wrap;
 }
 
 .btn_neon:hover #span2{
@@ -182,6 +199,7 @@ nav .redes:hover{
     width: 2px;
     height: 100%;
     background: linear-gradient(360deg,transparent,#a945c7);
+    flex-wrap: wrap;
 }
 
 .btn_neon:hover #span4{
@@ -194,6 +212,7 @@ nav .redes:hover{
     display: flex;
     justify-content: center;
     align-items:center ;
+    flex-wrap: wrap;
 }
 
 .objeto_flotante { 
@@ -203,6 +222,7 @@ nav .redes:hover{
     animation-timing-function: ease-in-out;
     margin-left: 30px;
     margin-top: 5px;
+    flex-wrap: wrap;
     }
      
 @keyframes floating {
@@ -214,6 +234,7 @@ nav .redes:hover{
 .objeto_flotante{
     height: 250px;
     margin-top: -60px;
+    flex-wrap: wrap;
 }
 
 
